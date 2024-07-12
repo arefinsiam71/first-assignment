@@ -60,5 +60,70 @@ margin-top: 32px;
 
 }
 
+#about {
+  height: 1325px;
+  display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 76px 92px 76px 92px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+}
+
+#about .about-title {
+  color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.about-greeting{
+  color: rgba(13, 19, 33, 0.7);
+font-size: 23px;
+font-weight: 665;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about-sub{
+  color: rgb(13, 19, 33);
+font-size: 15px;
+font-weight: 380;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.btn-primary{
+  color: rgb(13, 19, 33);
+  
+  font-size: 19px;
+  font-weight: 570;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.about-contian{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
  
 
